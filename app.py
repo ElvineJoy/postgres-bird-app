@@ -7,7 +7,7 @@ from flask_restful import Api, Resource
 from models import db, Bird
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://quantum2_db_user:UPe7evkAuSNmXpYCZBtZqyWp6SiuJbHk@dpg-cr7t6t5svqrc73dklcc0-a.oregon-postgres.render.com/quantum2_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://quantum2_db_user:UPe7evkAuSNmXpYCZBtZqyWp6SiuJbHk@dpg-cr7t6t5svqrc73dklcc0-a.oregon-postgres.render.com/bird_app_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.json.compact = False
 
